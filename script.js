@@ -19,4 +19,5 @@ arr.sort();
 for (let i of arr) {
 result.push(map[i])
 }
-console.log(result);
+return result;
+// console.log(result);
