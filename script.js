@@ -6,7 +6,7 @@ for (let i of touristSpots) {
 	let tempArr = i.split(' ');
 	let tempStr = '';
 	for (let j of tempArr) {
-		let tempWord = j.toLowerCase();
+		let tempword = j.toLowerCase();
 		if(tempword !== 'the' && tempword !== 'an' && tempword !== 'a')
 		{
 			tempStr += j;
